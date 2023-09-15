@@ -1,3 +1,23 @@
+
+
+.navtop{
+    background-color: #5865f2;
+    color: white;
+    display:flex;
+}
+.navtop a{
+    color: white;
+}
+
+.btn_open_discord{
+    border-radius: 20px;
+    width:120px;
+    height:40px;
+}
+.btn_open_discord:hover{
+    color:#5865f2
+}
+
 .brand {
     background-color: #5865f2;
     color: white;

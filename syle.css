@@ -110,6 +110,20 @@
     color: white;
 }
 
+.erster-bereich {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    flex-direction: column;
+}
+
+.erster-bereich .top_content h2{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+
 /*---- Fuenfter Bereich ----*/
 
 .fuenfter-bereich {

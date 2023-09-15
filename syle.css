@@ -1,12 +1,29 @@
 
 
+
+/*----  Start Header  --*/
 .navtop{
     background-color: #5865f2;
     color: white;
     display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.navtop a{
+.navtop_middle a{
     color: white;
+    text-decoration:none;
+
+}
+
+.navtop_middle a:hover{
+    color: white;
+    text-decoration:underline;
+
+}
+
+.navtop_middle{
+    display: flex;
+    justify-content: space-around;
 }
 
 .btn_open_discord{
@@ -17,6 +34,7 @@
 .btn_open_discord:hover{
     color:#5865f2
 }
+/*----  Ende Header  --*/
 
 .brand {
     background-color: #5865f2;

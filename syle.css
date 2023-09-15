@@ -1,4 +1,8 @@
 
+.logo {
+    max-width: 125px;
+    max-height: 25px;
+}
 
 
 /*-- --- Start Header --- */
@@ -80,11 +84,11 @@
 footer {
     background-color: #23272a;
     color: white;
-    padding: 20px 60px;
+    padding: 20px 100px;
 }
 
 footer > * {
-    margin: 40px 0px;
+    margin: 20px 0px;
 }
 
 footer a {
@@ -100,13 +104,28 @@ footer .flex-linktree {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+footer .flex-linktree div * {
+    margin: 10px 0px;
 }
 
 footer .flex-linktree .flex-4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+footer form * {
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border: none;
+}
+
+footer .social a i {
+    margin: 10px;
+    font-size: 24px;
 }
 
 footer .flex-linktree .flex-4 div {

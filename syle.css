@@ -91,6 +91,43 @@
     transition: all 0.3s ease-in-out;
 }
 
+.btn_open_discord_browser{
+    border-radius: 20px;
+    width:120px;
+    height:40px;
+    border:none;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    background-color: black;
+    color:white
+}
+.btn_open_discord_browser:hover{
+    background-color: black;
+    color:#5865f2;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: blur-radius;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn_download{
+    border-radius: 20px;
+    width:120px;
+    height:40px;
+    border:none;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    background-color: white;
+    color:black
+}
+.btn_download:hover{
+    background-color: white;
+    color:#5865f2;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: blur-radius;
+    transition: all 0.3s ease-in-out;
+}
+
+
 .hamburger_icon svg{
     height:40px
 }
@@ -109,6 +146,8 @@
     box-shadow: 5px 3px 10px grey;
     color: white;
 }
+
+
 
 .erster-bereich {
     display: flex;

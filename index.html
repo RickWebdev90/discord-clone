@@ -13,9 +13,9 @@
     <header>
         <nav class="navtop">
             <div>
-                    <a href="/test"><img src="/img/discord_logo_text_top_white.png" width="125px" height="25px" ></a>
+                    <a  href="/test"><img class="top_discord_logo" src="img/discord_logo_text_top_white.png" width="125px" height="28px" alt=""></a>
             </div>
-            <div>
+            <div class="navtop_middle">
                 <a href="/download">Download</a>
                 <a href="/nitro">Nitro</a>
                 <a href="/discover">Discover</a>
@@ -24,7 +24,7 @@
                 <a href="/blog">Blog</a>
                 <a href="/careers">Careers</a>
             </div>
-            <div>
+            <div class="top_right_wide">
                 <button class="btn_open_discord">Open Discord</button>
             </div>
         </nav>
@@ -62,15 +62,30 @@
                 <div class="item item-8">
                 <h1 class="h1-main">Zuverlässige Technik für Persönliche Nähe</h1>
                 <p>Sprach- und Bildübertragung mit geringer Latenz gibt dir das Gefühl, mit deinen Leuten im selben Raum zu sitzen. Winke im Video zur Begrüßung, schau Freunden zu, wenn sie Spiele streamen oder übertrage deinen Bildschirm für eine gemeinsame Malsession mit den anderen.</p>
+        <div class="main bereich">
+            <div class="fuenfter-bereich">
+                <div class="overlay">
+                    <img src="img/stars.svg" alt="stars">
+                    <h2>Bereit loszulegen?</h2>
+                </div>
+                <div>
+                    <button class="btn_open_discord brand" ><i class="fa fa-download"> Download für Windows</i></button>
                 </div>
             </div>
         </div>
     </main>
     <footer>
         <div class="flex-linktree">
-            <div class "flex-lang-social">
-                <div>Deutsch</div>
+            <div>
                 <div>
+                    <img src="img/language-de.png"  alt="german-flag">
+                    <form action="">
+                        <select name="language" id="">
+                            <option value="German"><img src="img/language-de.png"  alt="german-flag">? Deutsch</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="social">
                     <a href=""><i class="fa fa-twitter"></i></a>
                     <a href=""><i class="fa fa-instagram"></i></a>
                     <a href=""><i class="fa fa-facebook"></i></a>
@@ -121,10 +136,9 @@
         <div class="brand separator"></div>
         <div class="flex-bottom">
             <span>
-                <img src="" alt="">
-                Discord
+                <img class = "logo" src="img/discord_logo_text_top_white.png" alt="">
             </span>
-            <button class="brand">Anmelden</button>
+            <button class="brand btn_open_discord">Anmelden</button>
         </div>
     </footer>
 </body>

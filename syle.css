@@ -1,28 +1,87 @@
 
+.logo {
+    max-width: 125px;
+    max-height: 25px;
+}
 
+
+/*-- --- Start Header --- */
+
+/*-- gesamter headerbereich */
 .navtop{
     background-color: #5865f2;
     color: white;
     display:flex;
-}
-.navtop a{
-    color: white;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
+/*  Navbar mittelteil mit den normalen Textlinks */
+@media only screen and (min-width:1024px)
+{ .navtop_middle{
+    visibility: visible;
+    display: flex;
+    /*justify-content: space-around;*/
+    /*flex:1 1 auto;*/
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 600;
+    justify-self: center;
+
+    }
+}
+
+@media only screen and (max-width:1023px)
+{
+    .navtop_middle{
+        visibility: hidden;
+    }
+}
+
+.navtop_middle a{
+    color: white;
+    text-decoration:none;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.navtop_middle a:hover{
+    color: white;
+    text-decoration:underline;
+
+}
+
+
+.top_right_wide{
+    border:none;
+}
 .btn_open_discord{
     border-radius: 20px;
     width:120px;
     height:40px;
+    border:none;
+    margin-top: 11px;
+    margin-bottom: 11px;
 }
 .btn_open_discord:hover{
     color:#5865f2
 }
+
+.top_discord_logo{
+    padding-top: 5px;
+}
+
+/*--  --- Ende Header ---  */
 
 .brand {
     background-color: #5865f2;
     color: white;
 }
 /* Start Main */
+
 
 .area1 {
     display: flex;
@@ -130,14 +189,35 @@
     height: 500px;
 }
 /* End Main */
+.brand:hover {
+    background-color: #808aee;
+    box-shadow: 5px 3px 10px grey;
+    color: white;
+}
+
+/*---- Fuenfter Bereich ----*/
+
+.fuenfter-bereich {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    flex-direction: column;
+}
+
+.fuenfter-bereich .overlay h2{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
 footer {
     background-color: #23272a;
     color: white;
-    padding: 20px 60px;
+    padding: 20px 100px;
 }
 
 footer > * {
-    margin: 40px 0px;
+    margin: 20px 0px;
 }
 
 footer a {
@@ -153,13 +233,28 @@ footer .flex-linktree {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+footer .flex-linktree div * {
+    margin: 10px 0px;
 }
 
 footer .flex-linktree .flex-4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+footer form * {
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border: none;
+}
+
+footer .social a i {
+    margin: 10px;
+    font-size: 24px;
 }
 
 footer .flex-linktree .flex-4 div {
@@ -175,4 +270,23 @@ footer .flex-bottom {
 
 footer .separator {
     padding-top: 1px;
+}
+
+@media screen and (max-width:800px) {
+    footer {
+        padding: 20px 20px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    footer {
+        padding: 5vh 5vw;
+        width: 100vw;
+    }
+
+    footer .flex-linktree .flex-4 div {
+        width: 25vw;
+    }
+    
 }

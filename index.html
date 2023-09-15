@@ -13,7 +13,7 @@
     <header>
         <nav class="navtop">
             <div>
-                    <a href="/test"><img src="img/discord_logo_text_top_white.png" width="125px" height="25px" ></a>
+                    <a href="/test"><img src="img/discord_logo_text_top_white.png" class = "logo" ></a>
             </div>
             <div class="navtop_middle">
                 <a href="/download">Download</a>
@@ -39,9 +39,15 @@
     </main>
     <footer>
         <div class="flex-linktree">
-            <div class "flex-lang-social">
-                <div>Deutsch</div>
+            <div>
                 <div>
+                    <form action="">
+                        <select name="language" id="">
+                            <option value="German"><img src="https://discord.com/assets/7fa2adf98f26db34178bb30a63dabe8c.png" alt="">? Deutsch</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="social">
                     <a href=""><i class="fa fa-twitter"></i></a>
                     <a href=""><i class="fa fa-instagram"></i></a>
                     <a href=""><i class="fa fa-facebook"></i></a>
@@ -92,10 +98,9 @@
         <div class="brand separator"></div>
         <div class="flex-bottom">
             <span>
-                <img src="" alt="">
-                Discord
+                <img class = "logo" src="img/discord_logo_text_top_white.png" alt="">
             </span>
-            <button class="brand">Anmelden</button>
+            <button class="brand btn_open_discord">Anmelden</button>
         </div>
     </footer>
 </body>

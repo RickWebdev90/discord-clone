@@ -13,8 +13,8 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 /*  Navbar mittelteil mit den normalen Textlinks */
@@ -32,9 +32,11 @@
     }
 
     .hamburger_icon{
-        visibility:hidden;
-        width:0px
+        display:none;
+        width:0px;
+        padding-left: 0px;
     }
+
 }
 
 @media only screen and (max-width:1023.99px)
@@ -83,7 +85,10 @@
     margin-bottom: 11px;
 }
 .btn_open_discord:hover{
-    color:#5865f2
+    color:#5865f2;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: blur-radius;
+    transition: all 0.3s ease-in-out;
 }
 
 .hamburger_icon svg{

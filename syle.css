@@ -1,4 +1,8 @@
 
+.logo {
+    max-width: 125px;
+    max-height: 25px;
+}
 
 .navtop{
     background-color: #5865f2;

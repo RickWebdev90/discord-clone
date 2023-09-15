@@ -18,15 +18,54 @@
     color:#5865f2
 }
 
-button .brand {
+.brand {
     background-color: #5865f2;
     color: white;
 }
 
 footer {
-    color: #23272a;
+    background-color: #23272a;
+    color: white;
+    padding: 20px 60px;
+}
+
+footer > * {
+    margin: 40px 0px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 h5 {
     color: #5865f2;
+}
+
+footer .flex-linktree {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+footer .flex-linktree .flex-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer .flex-linktree .flex-4 div {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+footer .flex-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .separator {
+    padding-top: 1px;
 }

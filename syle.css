@@ -4,7 +4,6 @@
     max-height: 25px;
 }
 
-
 /*-- --- Start Header --- */
 
 /*-- gesamter headerbereich */
@@ -14,8 +13,8 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /*  Navbar mittelteil mit den normalen Textlinks */
@@ -44,13 +43,11 @@
         visibility: hidden;
     }
 
-    
     .hamburger_icon{
         visibility: visible;
         width:40px;
         padding-left: 20px;
     }
-
 
 }
 

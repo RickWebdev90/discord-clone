@@ -45,6 +45,27 @@
     color: white;
 }
 
+.brand:hover {
+    background-color: #808aee;
+    box-shadow: 5px 3px 10px grey;
+    color: white;
+}
+
+/*---- Fuenfter Bereich ----*/
+
+.fuenfter-bereich {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    flex-direction: column;
+}
+
+.fuenfter-bereich .overlay h2{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
 footer {
     background-color: #23272a;
     color: white;
@@ -105,4 +126,23 @@ footer .flex-bottom {
 
 footer .separator {
     padding-top: 1px;
+}
+
+@media screen and (max-width:800px) {
+    footer {
+        padding: 20px 20px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    footer {
+        padding: 5vh 5vw;
+        width: 100vw;
+    }
+
+    footer .flex-linktree .flex-4 div {
+        width: 25vw;
+    }
+    
 }

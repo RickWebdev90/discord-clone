@@ -4,7 +4,6 @@
     max-height: 25px;
 }
 
-
 /*-- --- Start Header --- */
 
 /*-- gesamter headerbereich */
@@ -14,8 +13,8 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 /*  Navbar mittelteil mit den normalen Textlinks */
@@ -31,13 +30,27 @@
     justify-self: center;
 
     }
+
+    .hamburger_icon{
+        display:none;
+        width:0px;
+        padding-left: 0px;
+    }
+
 }
 
-@media only screen and (max-width:1023px)
+@media only screen and (max-width:1023.99px)
 {
     .navtop_middle{
         visibility: hidden;
     }
+
+    .hamburger_icon{
+        visibility: visible;
+        width:40px;
+        padding-left: 20px;
+    }
+
 }
 
 .navtop_middle a{
@@ -55,6 +68,11 @@
 }
 
 
+.top_discord_logo{
+    padding-top: 5px;
+}
+
+
 .top_right_wide{
     border:none;
 }
@@ -67,12 +85,54 @@
     margin-bottom: 11px;
 }
 .btn_open_discord:hover{
-    color:#5865f2
+    color:#5865f2;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: blur-radius;
+    transition: all 0.3s ease-in-out;
 }
 
-.top_discord_logo{
-    padding-top: 5px;
+.btn_open_discord_browser{
+    border-radius: 20px;
+    width:120px;
+    height:40px;
+    border:none;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    background-color: black;
+    color:white
 }
+.btn_open_discord_browser:hover{
+    background-color: black;
+    color:#5865f2;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: blur-radius;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn_download{
+    border-radius: 20px;
+    width:120px;
+    height:40px;
+    border:none;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    background-color: white;
+    color:black
+}
+.btn_download:hover{
+    background-color: white;
+    color:#5865f2;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: blur-radius;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.hamburger_icon svg{
+    height:40px
+}
+
+
 
 /*--  --- Ende Header ---  */
 
@@ -194,6 +254,22 @@
     box-shadow: 5px 3px 10px grey;
     color: white;
 }
+
+
+
+.erster-bereich {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    flex-direction: column;
+}
+
+.erster-bereich .top_content h2{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
 
 /*---- Fuenfter Bereich ----*/
 

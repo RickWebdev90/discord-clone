@@ -31,13 +31,27 @@
     justify-self: center;
 
     }
+
+    .hamburger_icon{
+        visibility:hidden;
+        width:0px
+    }
 }
 
-@media only screen and (max-width:1023px)
+@media only screen and (max-width:1023.99px)
 {
     .navtop_middle{
         visibility: hidden;
     }
+
+    
+    .hamburger_icon{
+        visibility: visible;
+        width:40px;
+        padding-left: 20px;
+    }
+
+
 }
 
 .navtop_middle a{
@@ -52,6 +66,11 @@
     color: white;
     text-decoration:underline;
 
+}
+
+
+.top_discord_logo{
+    padding-top: 5px;
 }
 
 
@@ -70,9 +89,11 @@
     color:#5865f2
 }
 
-.top_discord_logo{
-    padding-top: 5px;
+.hamburger_icon svg{
+    height:40px
 }
+
+
 
 /*--  --- Ende Header ---  */
 

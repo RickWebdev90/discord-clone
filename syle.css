@@ -116,13 +116,15 @@
 
 .btn_download{
     border-radius: 20px;
-    width:120px;
-    height:40px;
+/*     width:120px;
+    height:40px; */
+    padding: 16px 40px;
     border:none;
     margin-top: 11px;
     margin-bottom: 11px;
     background-color: white;
-    color:black
+    color:black;
+    font-size: 20px;
 }
 .btn_download:hover{
     background-color: white;

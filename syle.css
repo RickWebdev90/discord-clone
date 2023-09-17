@@ -81,8 +81,10 @@
 }
 .btn_open_discord{
     border-radius: 20px;
-    width:120px;
+/*     width:120px;
     height:40px;
+ */ 
+    padding: 16px 32px;
     border:none;
     margin-top: 11px;
     margin-bottom: 11px;

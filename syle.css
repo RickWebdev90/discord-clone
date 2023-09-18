@@ -11,7 +11,7 @@
 
 /*-- gesamter headerbereich */
 .navtop{
-    background-color: #5865f2;
+    background-color: #3546ff;
     color: white;
     display:flex;
     justify-content:space-between;
@@ -31,6 +31,7 @@
     line-height: 140%;
     font-weight: 600;
     justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
 
     }
 
@@ -38,6 +39,14 @@
         display:none;
         width:0px;
         padding-left: 0px;
+    }
+
+    .top_content h2{
+        font-size: 56px;
+    }
+    .top_content div{
+        font-size: 18px;
+        font-weight: 220;
     }
 
 }
@@ -54,6 +63,39 @@
         padding-left: 20px;
     }
 
+    .top_content h2{
+        font-size:  5vw;
+    }
+
+}
+@media only screen and (max-width:600px)
+{
+    .top_content div{
+        font-size:  2.5vw;
+    }
+
+    .twobuttons{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:480.00px)
+{
+    .navtop_middle{
+        display:none;
+    }
+
+    .top_content h2{
+        font-size: 20px;
+    }
+
+    .erster-bereich .top_content h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:  4vw;
+        font-weight: 800;
+        text-align: center;
+        color:white;
+    }
 }
 
 .navtop_middle a{
@@ -80,6 +122,7 @@
     border:none;
 }
 .btn_open_discord{
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
 /*     width:120px;
     height:40px;
@@ -90,6 +133,7 @@
     margin-bottom: 11px;
 }
 .btn_open_discord:hover{
+    font-family: Arial, Helvetica, sans-serif;
     color:#5865f2;
     box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.3);
     box-shadow: blur-radius;
@@ -97,9 +141,12 @@
 }
 
 .btn_open_discord_browser{
-    border-radius: 20px;
-    width:120px;
-    height:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 50;
+    border-radius: 40px;
+    width:240px;
+    height:50px;
     border:none;
     margin-top: 11px;
     margin-bottom: 11px;
@@ -115,16 +162,18 @@
 }
 
 .btn_download{
-    border-radius: 20px;
-/*     width:120px;
-    height:40px; */
-    padding: 16px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 50;
+    border-radius: 40px;
+    width:240px;
+    height:50px;
     border:none;
     margin-top: 11px;
     margin-bottom: 11px;
     background-color: white;
     color:black;
-    font-size: 20px;
+    
 }
 .btn_download:hover{
     background-color: white;
@@ -259,19 +308,52 @@
 }
 
 
+/* -- Content unter Navbar  -- */
 
 .erster-bereich {
     display: flex;
     align-items: center;
     padding: 20px 100px;
     flex-direction: column;
+    background-image: url("img/background_waves.svg");
+    background-position:-800px -100px;
+    background-color: #3546ff;
+    background-repeat: no-repeat;
 }
 
-.erster-bereich .top_content h2{
-    position: relative;
-    bottom: 50px;
+.erster-bereich .top_content{
+
     text-align: center;
 }
+.top_content div{
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-size: 18px;*/
+    font-weight: 220;
+    color:white;
+}
+.erster-bereich .top_content h2{
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-size:  4vw;*/
+    font-weight: 800;
+    text-align: center;
+    color:white;
+}
+
+.twobuttons{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  56px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;;
+
+}
+.twobuttons div{
+    margin: 10px;
+
+}
+
 
 
 /*---- Fuenfter Bereich ----*/
